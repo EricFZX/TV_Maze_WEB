@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.header {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+}
+
+.header img {
+    width: 150px;
+}
+
+.header a {
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/**PARTE INFORMATIVA*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TEXT-CE {
+    padding: 40px 0px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.TEXT-CT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    text-align: center;
+}
+
+.TEXT-CT h2 {
+    padding: 10px 0px;
+}
+
+.TEXT-CT p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.CONTENT-CE {
+    display: flex;
+    padding: 40px 0px;
+    width: 50%;
+    justify-content: center;
+}
+
+.CONTENT-CT {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CONTENT-CT img {
+    width: 100%;
+}
+
+.CONTENT-CT iframe {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* CARRUSEL CSS */
+.carrusel-items {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.carrusel-item {
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+}
+
+.carrusel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.CONT-Carrusel {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.PE-TI {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.CONT-PRE {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.TARJETA-PR {
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #999999;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.TARJETA-PR h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.TARJETA-PR p {
+    text-align: center;
+}
+
+@media (max-width:900px) {
+    .TARJETA-PR {
+        height: 300px;
+        width: 50%;
+    }
+}
+
+@media (max-width:700px) {
+    .TARJETA-PR {
+        height: 300px;
+        width: 90%;
+    }
+}
+
+/* FOOTER */
+.footer {
+    padding: 20px 50px;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+}
+
+.copy a {
+    color: white;
+    margin-left: 15px;
+}
+
+svg {
+    margin: -4px;
+}

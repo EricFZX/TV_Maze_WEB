@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://MPQ/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://MPQ/">
+
+<xs:element name="B1" type="tns:B1"/>
+
+<xs:element name="B1Response" type="tns:B1Response"/>
+
+<xs:element name="B2" type="tns:B2"/>
+
+<xs:element name="B2Response" type="tns:B2Response"/>
+
+<xs:element name="B3" type="tns:B3"/>
+
+<xs:element name="B3Response" type="tns:B3Response"/>
+
+<xs:element name="B4" type="tns:B4"/>
+
+<xs:element name="B4Response" type="tns:B4Response"/>
+
+<xs:element name="getFacebook" type="tns:getFacebook"/>
+
+<xs:element name="getFacebookResponse" type="tns:getFacebookResponse"/>
+
+<xs:element name="getInstagram" type="tns:getInstagram"/>
+
+<xs:element name="getInstagramResponse" type="tns:getInstagramResponse"/>
+
+<xs:element name="getReddit" type="tns:getReddit"/>
+
+<xs:element name="getRedditResponse" type="tns:getRedditResponse"/>
+
+<xs:element name="getTwitter" type="tns:getTwitter"/>
+
+<xs:element name="getTwitterResponse" type="tns:getTwitterResponse"/>
+
+<xs:complexType name="B1">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="B1Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="B2">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="B2Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="B3">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="B3Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getInstagram">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getInstagramResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getReddit">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getRedditResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getFacebook">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getFacebookResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getTwitter">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getTwitterResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="B4">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="B4Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

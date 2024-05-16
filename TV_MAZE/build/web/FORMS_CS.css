@@ -1,0 +1,165 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;   
+}
+
+/*HEADER*/
+.header {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+}
+
+.header img {
+    width: 150px;
+}
+
+.header a {
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.left-PG {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+.left-CENTER {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-CENTER h1 {
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+.left-CENTER p {
+    font-size: x-large;
+}
+
+.IMG-1 {
+    background-image: url(IMGS/4281653.jpg);
+}
+
+.IMG-2 {
+    background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?t=st=1699928911~exp=1699929511~hmac=f88e305c4b0eb9a8cd940523787d8ca7223216220b64a2b5eb57b89062ad0660);
+}
+
+
+
+.CENTER-CONT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-PG {
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.right-PG form {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.right-PG .TITULO {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+.right-PG form>input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 8px;
+}
+
+.right-PG form>input[type="submit"] {
+    background-color: #f44336;
+    color: #FFF;
+    border: none;
+}
+
+form a {
+    padding-bottom: 5px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+form label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.SE button {
+    width: 45%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: #FFF;
+}
+
+.footer {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+}
+
+.copy a {
+    color: white;
+    margin-left: 15px;
+}
+
+
+/*QUITAR SPINNER HTML*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
